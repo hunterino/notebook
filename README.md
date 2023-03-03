@@ -2,7 +2,13 @@
 
 ## Details explaining the choice of framework/db/ any 3rd party tools.
 
-Framework choice: jhipster - JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures. Out of the box has all the pieces needed for a scaleable services infrastructure.
+### DB Choice
+
+* local dev - h2 - self configured
+* prod postgres - my favorite db
+
+### Framework choice: 
+JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures. Out of the box has all the pieces needed for a scaleable services infrastructure.
 
 generate a complete and modern web app or microservice architecture, unifying:
 
@@ -12,6 +18,20 @@ generate a complete and modern web app or microservice architecture, unifying:
 * A resilient microservice architecture with cloud native principles in mind
 * Infrastructure as code so you can quickly deploy to the ☁️
     
+# Quick Start
+
+* prerequisite: java 17
+
+``` shell
+git close git@github.com:hunterino/notebook.git
+cd notebook
+./gradlew bootRun
+```
+
+Run Tests
+``` shell
+./gradlew test integrationTest jacocoTestReport
+```
 
 ## instructions on how to run your code and run the tests.
 
