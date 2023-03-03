@@ -1,5 +1,27 @@
 # notebook
 
+## Details explaining the choice of framework/db/ any 3rd party tools.
+
+Framework choice: jhipster - JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures. Out of the box has all the pieces needed for a scaleable services infrastructure.
+
+generate a complete and modern web app or microservice architecture, unifying:
+
+* A high-performance and robust server-side stack with excellent test coverage
+* A sleek, modern, mobile-first UI with Angular, React, or Vue + Bootstrap for CSS
+* A powerful workflow to build your application with Webpack and Maven or Gradle
+* A resilient microservice architecture with cloud native principles in mind
+* Infrastructure as code so you can quickly deploy to the ☁️
+    
+
+## instructions on how to run your code and run the tests.
+
+See below
+
+## Any necessary setup files or scripts to run your code locally or in a test environment.
+
+This project was run using java jdk 17
+
+
 This application was generated using JHipster 7.9.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.3](https://www.jhipster.tech/documentation-archive/v7.9.3).
 
 ## Project Structure
