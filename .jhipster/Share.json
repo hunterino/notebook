@@ -1,0 +1,40 @@
+{
+  "applications": ["notebook"],
+  "changelogDate": "20230302165525",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "share",
+  "fields": [
+    {
+      "fieldName": "invite",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Share",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "relationshipName": "author",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "relationshipName": "withUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "note",
+      "relationshipName": "sharing",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

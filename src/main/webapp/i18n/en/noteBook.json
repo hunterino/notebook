@@ -1,0 +1,26 @@
+{
+  "notebookApp": {
+    "noteBook": {
+      "home": {
+        "title": "Note Books",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Note Book",
+        "createOrEditLabel": "Create or edit a Note Book",
+        "notFound": "No Note Books found"
+      },
+      "created": "A new Note Book is created with identifier {{ param }}",
+      "updated": "A Note Book is updated with identifier {{ param }}",
+      "deleted": "A Note Book is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Note Book {{ id }}?"
+      },
+      "detail": {
+        "title": "Note Book"
+      },
+      "id": "ID",
+      "name": "Name",
+      "handle": "Handle",
+      "user": "User"
+    }
+  }
+}
