@@ -23,7 +23,7 @@ generate a complete and modern web app or microservice architecture, unifying:
 * prerequisite: java 17
 
 ``` shell
-git close git@github.com:hunterino/notebook.git
+git clone git@github.com:hunterino/notebook.git
 cd notebook
 ./gradlew bootRun
 ```
